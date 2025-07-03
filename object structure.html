@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Arrays And Array Methods</title>
+    </head>
+    <body>
+        <h2>JS Arrays</h2>
+        <p id="demo"></p>
+
+        <script>
+            var subjects=["Maths","English","Biology","Physics","Chemistry","Skill Acquisition"];
+            document.getElementById("demo").innerHTML=subjects[2];
+        </script>
+
+        <!--Array Methods-->
+        <h2>JS Array Methods</h2>
+        <h2> Join() and pop()</h2>
+        <p id="myjoin"></p>
+        <p id="myfirstpop"></p>
+        <p id="mysecondpop"></p>
+
+        <script>
+            var makeup=["Foundation","Eyeshadow","Concealer","Lipstick","Lipgloss","Eyepencil"];
+
+            document.getElementById("myjoin").innerHTML=makeup.join("&")
+            document.getElementById("myfirstpop").innerHTML=makeup;
+            makeup.pop()
+            document.getElementById("mysecondpop").innerHTML=makeup;
+        </script>
+    </body>
+</html>
